@@ -1,0 +1,14 @@
+{
+  "name": "WDSvalidation",
+  "version": "0.9.0",
+  "description": "A library of simple validators, numbers and strings",
+  "main": "index.js",
+  "author": "D4ITON",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
