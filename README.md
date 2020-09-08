@@ -1,6 +1,10 @@
 # WebDevSimplified validations
 
-Validate string and numbers length
+A library of simple validators, numbers and strings,
+this is an enhancement of code from Kyle Cook based on validations from this video https://youtu.be/5B587bQ-TNg
+
+- github repository: https://github.com/WebDevSimplified/Noob-Vs-Pro-Code
+
 Example:
 
 ```js
@@ -57,6 +61,7 @@ function validateProduct(product = {}) {
   };
 }
 
+// data to validate:
 const product = {
   name: "ceviche",
   categoryId: "123",
@@ -82,8 +87,3 @@ console.log(miOut);
   },
 */
 ```
-
-This is an enhancement of code from Kyle Cook based on validations
-
-- From this video https://youtu.be/5B587bQ-TNg
-- github repository: https://github.com/WebDevSimplified/Noob-Vs-Pro-Code

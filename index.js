@@ -1,5 +1,5 @@
 /**
- * WebDevSimplified validations
+ * WebDevSimplified validations (WDSvalidation)
  * =============================
  * This is an enhancement of code from Kyle Cook based on
  * this video https://youtu.be/5B587bQ-TNg

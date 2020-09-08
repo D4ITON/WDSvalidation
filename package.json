@@ -1,5 +1,5 @@
 {
-  "name": "WDSvalidation",
+  "name": "@d4iton/WDSvalidation",
   "version": "0.9.0",
   "description": "A library of simple validators, numbers and strings",
   "main": "index.js",
