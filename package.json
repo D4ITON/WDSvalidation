@@ -1,10 +1,13 @@
 {
   "name": "wdsvalidation",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "description": "A library of simple validators, numbers and strings",
   "main": "index.js",
   "repository": "https://github.com/D4ITON/WDSvalidation",
   "author": "D4ITON",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "private": false,
   "license": "MIT",
   "scripts": {
