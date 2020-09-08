@@ -1,16 +1,23 @@
 # WebDevSimplified validations
 
-A library of simple validators, numbers and strings,
-this is an enhancement of code from Kyle Cook based on validations from this video https://youtu.be/5B587bQ-TNg
+A library of simple validators, numbers and strings, this is an enhancement of code from Kyle Cook based on validations.
 
-- github repository: https://github.com/WebDevSimplified/Noob-Vs-Pro-Code
+- [Youtube video](https://youtu.be/5B587bQ-TNg "youtube video explaining how it works") from WebDevSimplified
 
-[here](examples.js) there is more examples
+- [github repository](https://github.com/WebDevSimplified/Noob-Vs-Pro-Code/blob/master/4-fat-functions/3-pro.js "WebDevSimplified example")
 
-Example:
+- [here](examples.js "examples using wdsvalidation") are more examples
+
+## Usage
+
+install using a package manager
+
+`yarn add wdsvalidation`
+
+then required and use it.
 
 ```js
-const validation = require("./index");
+const validation = require("wdsvalidation");
 
 // rules
 const validations = {

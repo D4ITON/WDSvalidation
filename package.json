@@ -1,6 +1,6 @@
 {
   "name": "wdsvalidation",
-  "version": "0.9.1",
+  "version": "0.9.3",
   "description": "A library of simple validators, numbers and strings",
   "main": "index.js",
   "repository": "https://github.com/D4ITON/WDSvalidation",
