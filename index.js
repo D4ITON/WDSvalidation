@@ -78,7 +78,7 @@ function validateRequired(value, isRequired) {
 }
 
 /**
- * Valida minimo de caracteres del string
+ * Validate min of string length
  * @param {String} property
  * @param {String} value
  * @param {Number} length
@@ -92,7 +92,7 @@ function validateMinLength(value, length, required = true) {
 }
 
 /**
- * Valida maximo de caracteres del string
+ * Validate max of string length
  * @param {String} property
  * @param {String} value
  * @param {Number} length
@@ -106,7 +106,7 @@ function validateMaxLength(value, length, required = true) {
 }
 
 /**
- * Validate max
+ * Validate max value (number)
  * @param {Number} value
  * @param {Number} maxValue
  */
@@ -118,7 +118,7 @@ function validateMaxValue(value, maxValue) {
 }
 
 /**
- * Validate min
+ * Validate min value (number)
  * @param {Number} value
  * @param {Number} maxValue
  */
@@ -134,6 +134,7 @@ function validateMinValue(value, minValue) {
  * Type of function
  * @param {String} value
  * @param {String} type
+ * @param {Boolean} nullable
  */
 function validateType(value, type, nullable = false) {
   if (typeof value === type || (nullable && value == null)) return;
